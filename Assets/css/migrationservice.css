@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    width:auto;
+    height: 95px;
+    margin-left: 80px;
+    padding-top: 15px;
+
+}
+.nav-items{
+    margin-left: 60px;
+    display: inline-block;
+    padding: 5px 5px;
+    color: #01416f;
+    
+}
+.top-nav-bar {
+    margin-top: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #01416f;
+  }
+.top-nav-bar-apply {
+    margin-top: 12px;
+    margin-left: 200px;
+    font-weight: bold;
+    color: #febc42;
+}
+#top-nav-bar-apply-icon{
+    color: #febc42;
+}
+  #menu-btn{
+    color: #fffffe;
+    display: none;
+  }
+
+
+
+  #li {
+    float: left;
+    display: block;   
+  }
+  
+ #li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #li a:hover {
+    color:#febc42;
+  } 
+  
+   /* first section start */
+
+  #first-section-img{
+    width: 1350px;
+  }
+  @media only screen and (min-width: 1400px){
+    #first-section-img{
+      width: 1440px;
+  }
+}
+/* first section end */
+
+/* Second section start */
+
+.second-section{
+    padding-top: 60px;
+    padding-left: 50px;
+  }
+  .second-section-h1 {
+    color: #01416f;
+    font-family:  Georgia;
+    font-size: 80px;
+    font-weight: bolder;
+    padding-left: 20px;
+  }  
+  .second-section-h1{
+    padding-top: 60px;
+  }
+  .second-section-p{
+    color: #01416f;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 80px;
+  }
+  /* Second section end */
+  /* third section start */
+  .third-section{
+    background-color: #01416f;
+    margin-top: 40px;
+    margin-right: 200px;
+  }
+  #col-lg-9-third-section{
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 140px;
+  }
+  .third-section-h1-one{
+    color: #febc42;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .third-section-h1-two{
+    color: #fffffe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+
+  }
+  .third-section-p-one{
+    color: #fffffe;
+    padding-left: 10px;
+    line-height: 20px;
+    border-left-style: solid;
+    border-color: #febc42;
+    border-width: 5px;
+  }
+  .third-section-p-two{
+    color: #fffffe;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .third-section-img{
+    width: 280px;
+    margin-left: 980px;
+    margin-top: -450px;
+  }
