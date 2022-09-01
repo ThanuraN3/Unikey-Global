@@ -95,11 +95,13 @@ body{
   .second-section-p{
     color: #01416f;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 20px;
     padding-left: 80px;
+    line-height: 35px;
   }
   /* Second section end */
+
   /* third section start */
   .third-section{
     background-color: #01416f;
@@ -227,6 +229,7 @@ body{
   padding-left: 80px;
 }
 /* fifth section end */
+
 /* sixth section start */
 #sixth-section-btn{
   margin-top: 15px;
@@ -579,8 +582,8 @@ body{
 
 }
 .upper-footer-section-img{
-  margin-left: -10px;
-  width: 1360px;
+  margin-left: -11px;
+  width: 1350px;
   background-image: url("../images/Rectangle11907.jpg");
 }
 .upper-footer-section-h1{
@@ -590,45 +593,8 @@ body{
   padding-bottom: 200px;
   padding-left: 440px;
   font-size: 55px;
+  font-weight: 700;
 }
-/* #upper-footer-section-btn{
-  margin-top: 15px;
-  position: relative;
-  padding-block: 45px;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px;
-  background-color:transparent;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  color:#01416f;
-  transition: width 0.5s;
-  overflow: hidden;
-  
-  
-}
-#upper-footer-section-btn::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #febc42;
-  transition: height linear 0.3s;
-  z-index: 0;
-
-}
-#upper-footer-section-btn:hover{
-  background-color:transparent;
-}
-#upper-footer-section-btn:hover::before{
-  height:10%;
-} */
 @media only screen and (min-width: 1400px){
   .upper-footer-section-img{
     width: 1440px;
