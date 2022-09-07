@@ -535,49 +535,6 @@ body{
     padding-left: 60px;
   }
 }
-/* #upper-footer-section-btn{
-  margin-top: 15px;
-  position: relative;
-  padding-block: 45px;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px;
-  background-color:transparent;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  color:#01416f;
-  transition: width 0.5s;
-  overflow: hidden;
-  
-  
-}
-#upper-footer-section-btn::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #febc42;
-  transition: height linear 0.3s;
-  z-index: 0;
-
-}
-#upper-footer-section-btn:hover{
-  background-color:transparent;
-}
-#upper-footer-section-btn:hover::before{
-  height:10%;
-} */
-/* @media only screen and (min-width: 1400px){
-  .upper-footer-section-img{
-    width: 1440px;
-}
-}
 /* upper-footer section end */
 
       /* footer section start */
