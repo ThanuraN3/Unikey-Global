@@ -13,7 +13,7 @@
      <!-- nav bar start -->
      <section class="nav-bar"> 
         <div class="container"> 
-            <div class="row align-items-end">
+            <div class="row">
                 <div class="col-6">
                     <div text-lg-start text-centerd>
                         <img src="assets/images/unikey-logo.png " class="navbar-brand">
@@ -33,9 +33,14 @@
                         <li class="nav-items">
                             <a href="#" class="nav-link"><i class="bi bi-search"></i></a>
                         </li>
-                        <li class="hamberger-menu">
-                            <a href="#" class="nav-link"><i class="bi bi-list"></i></a>
-                        </li>
+                        <div class="container nav-container ">
+                            <input class="checkbox" type="checkbox" name="" id="hamberger-menu" />
+                            <div class="hamburger-lines">
+                              <span class="line line1"></span>
+                              <span class="line line2"></span>
+                              <span class="line line3"></span>
+                            </div>  
+                        </div>
                     </ul>
                 </div>    
             </div>    
@@ -46,23 +51,37 @@
 
     <!-- top nav bar start -->
     <!-- <div class="container"> -->
-    <div class="top-nav-bar">
-        <div class="row">
-            <div class="col-8">
-                <ul class="top-nav-bar-menu">
-                <li id="li"><a class="active" href="index.html">Home</a></li>
-                <li id="li"><a href="aboutUs.html">About Us</a></li>
-                <li id="li"><a href="Educationservice.html">Education Services</a></li>
-                <li id="li"><a href="migrationservice.html">Migration Services</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="container-fluid" id="navbar" >
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-8 py-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="navbaritems" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbaritems" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" id="navbaritemsdrop" href="aboutUs.html">About Us</a></li>
+                      <li><a class="dropdown-item" id="navbaritemsdrop" href="ourteam.html">Our Team</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="navbaritems" aria-current="page" href="Educationservice.html">Education service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="navbaritems" aria-current="page" href="migrationservice.html">migration service</a>
+                  </li>
+                  <div class="nav-item">
+                    <a class="navbar-apply">APPLY NOW &nbsp; &nbsp;<i class="bi bi-pen-fill" id="navbar-apply-icon"></i></a>
+                </div>
                 </ul>
+              </div>
             </div>
-            <div class="col-4">
-                <h5 class="top-nav-bar-apply">APPLY NOW &nbsp; &nbsp;<i class="bi bi-pen-fill" id="top-nav-bar-apply-icon"></i></h5>
-
-            </div>
-        </div> 
-    </div>
-    </div>
+          </nav>
     <!--top nav bar end -->
     <!-- first section start -->
     <section class="first-section">
