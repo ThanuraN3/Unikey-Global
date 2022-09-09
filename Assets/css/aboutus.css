@@ -277,13 +277,12 @@ body{
   margin-top: 100px;
 }
 #fourth-sector-img{
-  margin-left: -11px;
   width: 100%;
   height: auto;
 }
 @media only screen and (max-width: 1500px){
   #fourth-sector-img{
-    width: 1440px;
+    width: 100%;
 }
 }
 @media only screen and (max-width: 1200px){

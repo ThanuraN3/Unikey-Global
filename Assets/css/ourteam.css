@@ -217,10 +217,24 @@ body{
   /* fourth section end */
 
   /* fifth section start */
-  #fifth-section-image{
-    width: 1360px;
-    margin-left: -128px;
+  .fifth-section-image{
+    background-image: url("../images/Aboutus/Teams/banner-image.jpg");
+    width: 100%;
+    /* padding: 250px; */
+    padding: 250px;
+    
+
   }
+  @media only screen and (max-width: 1200px){
+    #fifth-section-image{
+      width: auto;
+  }
+}
+@media only screen and (max-width: 992spx){
+  #fifth-section-image{
+    width: auto;
+}
+}
   /* fifth section end */
   /* sixth section start */
   .sixth-section{

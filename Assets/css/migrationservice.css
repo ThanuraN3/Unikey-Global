@@ -87,6 +87,12 @@ body{
     font-weight: bold;
     color: #febc42;
 }
+/* .dropdown-menu{
+  position: relative;
+}
+#avbaritems{
+  position: absolute;
+} */
 
   #menu-btn{
     color: #fffffe;

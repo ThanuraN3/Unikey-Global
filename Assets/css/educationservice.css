@@ -22,6 +22,9 @@ body{
   }
 }
 @media only screen and (max-width: 1200px){
+  .nav-item{
+    font-size: smaller;
+  }
   .navbar-brand{
     width: 200px;
     height: auto;
@@ -69,6 +72,7 @@ body{
     overflow: hidden;
     background-color: #01416f;
     padding-bottom: 0px !important;
+    
 
   }
   @media only screen and (max-width: 992px){
@@ -81,6 +85,7 @@ body{
   } 
   #navbaritems{
     color: #ffffff;
+    z-index: -1;
   } 
   #navbaritemsdrop{
     color: #01416f;
