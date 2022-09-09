@@ -59,13 +59,17 @@ body{
 
 
 }
-
+.navbar{
+  padding-bottom: 0 !important;
+}
 #navbar{
     margin-top: 40px;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     background-color: #01416f;
+    padding-bottom: 0px !important;
+
   }
   @media only screen and (max-width: 992px){
     .top-nav-bar{
