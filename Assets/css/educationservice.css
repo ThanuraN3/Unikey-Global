@@ -23,7 +23,7 @@ body{
 }
 @media only screen and (max-width: 1200px){
   .nav-item{
-    font-size: smaller;
+    font-size: small;
   }
   .navbar-brand{
     width: 200px;
@@ -31,7 +31,6 @@ body{
   }
 }
 .nav-items{
-    margin-left: 20px;
     display: inline-block;
     padding: 3px 3px;
     color: #01416f;
@@ -64,6 +63,9 @@ body{
 }
 .navbar{
   padding-bottom: 0 !important;
+} 
+.topnavbar-section{
+  background-color: #01416f;
 }
 #navbar{
     margin-top: 40px;
@@ -71,9 +73,6 @@ body{
     margin: 0;
     overflow: hidden;
     background-color: #01416f;
-    padding-bottom: 0px !important;
-    
-
   }
   @media only screen and (max-width: 992px){
     .top-nav-bar{
@@ -85,14 +84,13 @@ body{
   } 
   #navbaritems{
     color: #ffffff;
-    z-index: -1;
   } 
   #navbaritemsdrop{
     color: #01416f;
   }
 .navbar-apply {
     margin-top: 12px;
-    margin-left: 700px;
+    margin-left: 500px;
     font-weight: bold;
     color: #febc42;
 }
@@ -124,6 +122,12 @@ body{
     color:#febc42;
   } 
   @media only screen and (max-width: 1200px){
+    .navbar-apply {
+      margin-top: 12px;
+      margin-left: 300px;
+      font-weight: bold;
+      color: #febc42;
+  }
     #li{
       font-size: small;
     }
@@ -524,15 +528,17 @@ body{
   margin-left: 0px;
   width: 100%;
   background-image: url("../images/Rectangle11907.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .upper-footer-section-h1{
   background-color: rgba(0, 0, 0, 0.603);
   color: #fffffe;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 440px;
   font-size: 55px;
   font-weight: 700;
+  text-align: center;
 }
 @media only screen and (max-width: 1200px){
   .upper-footer-section-h1{

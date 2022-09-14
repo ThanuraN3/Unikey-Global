@@ -1,0 +1,62 @@
+.list-group{
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+  margin-top: -195px;
+  margin-left: 70px;
+
+}
+
+.list-group-item{
+  padding-top: 10px;
+  position:relative;
+  padding-left: 50px;
+  color: #01416f;
+  background-color: #fff;
+  padding-bottom: 50px;
+  padding-inline-end: 40px;
+  transition: all 0.5s ease-in;
+
+}
+.list-group .list-group-item:hover{
+  cursor: pointer;
+  color:#01416f;
+  background-color: #01416f60;
+}
+.content{
+  margin: 30px auto;
+  height: 500px;
+  border-radius: 55;
+  box-shadow: 0 2px 1px 0 #dcdcdc,0 -2px 1px 0 #dcdcdc;;
+}
+
+.red{
+  background:url("../images/Rectangle11905.jpg");
+}
+.green{
+  background:url("../images/Rectangle11904.jpg");
+}
+.blue{
+  background:url("../images/Rectangle11899.jpg");
+}
+.purple{
+  background:url("../images/Rectangle11899.jpg");
+}
+#bg{
+  height: 100%;
+  width: 100%;
+}
+#list-content{
+  padding: 50px;
+  text-align: center;
+}
+#list-content li{color: #fff; list-style: none;
+font-size: 40px;
+display: none;
+}
+.fifth-h4{
+  color: black;
+}
+.view-all{
+  padding-bottom: 45px;
+}

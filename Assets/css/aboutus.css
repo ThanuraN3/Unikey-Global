@@ -28,7 +28,6 @@ body{
   }
 }
 .nav-items{
-    margin-left: 20px;
     display: inline-block;
     padding: 3px 3px;
     color: #01416f;
@@ -48,14 +47,15 @@ body{
   }
 
 }
-
+.topnavbar-section{
+  background-color: #01416f;
+}
 #navbar{
     margin-top: 40px;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     background-color: #01416f;
-    padding-bottom: 0%;
   }
   @media only screen and (max-width: 992px){
     .top-nav-bar{
@@ -73,11 +73,10 @@ body{
   }
 .navbar-apply {
     margin-top: 12px;
-    margin-left: 700px;
+    margin-left: 500px;
     font-weight: bold;
     color: #febc42;
-  }
-
+}
   #menu-btn{
     color: #fffffe;
     display: none;
@@ -103,6 +102,12 @@ body{
     color:#febc42;
   } 
   @media only screen and (max-width: 1200px){
+    .navbar-apply {
+      margin-top: 12px;
+      margin-left: 300px;
+      font-weight: bold;
+      color: #febc42;
+  }
     #li{
       font-size: small;
     }
@@ -340,32 +345,31 @@ body{
   margin-left: 0px;
   width: 100%;
   background-image: url("../images/Rectangle11907.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .upper-footer-section-h1{
   background-color: rgba(0, 0, 0, 0.603);
   color: #fffffe;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 440px;
+  text-align: center;
   font-size: 55px;
   font-weight: 700;
 }
 @media only screen and (max-width: 1200px){
   .upper-footer-section-h1{
     font-size: 40px;
-    padding-left: 280px;
   }
 }
 @media only screen and (max-width: 992px){
   .upper-footer-section-h1{
     font-size: 30px;
-    padding-left: 210px;
   }
 }
 @media only screen and (max-width:425px){
   .upper-footer-section-h1{
     font-size: 30px;
-    padding-left: 60px;
   }
 }
 /* upper-footer section end */

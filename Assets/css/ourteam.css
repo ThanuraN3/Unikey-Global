@@ -28,7 +28,6 @@ body{
   }
 }
 .nav-items{
-    margin-left: 20px;
     display: inline-block;
     padding: 3px 3px;
     color: #01416f;
@@ -279,6 +278,8 @@ body{
   margin-left: 0px;
   width: 100%;
   background-image: url("../images/Rectangle11907.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .upper-footer-section-h1{
   background-color: rgba(0, 0, 0, 0.603);
