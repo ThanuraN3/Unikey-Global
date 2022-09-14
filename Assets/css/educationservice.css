@@ -93,6 +93,7 @@ body{
     margin-left: 500px;
     font-weight: bold;
     color: #febc42;
+    text-decoration: none;
 }
 
   #menu-btn{
@@ -108,6 +109,13 @@ body{
   #li {
     float: left;
     display: block;   
+  }
+  .nav-items a:hover{
+    color: #febc42;
+  }
+  .nav-item a:hover,
+  .nav-item a.active{
+    color: #febc42 !important;
   }
   
  #nav-item a {
@@ -588,7 +596,6 @@ body{
   }
   .last-word-on-footer{
     margin-top: 20px;
-    margin-left: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -598,7 +605,7 @@ body{
   }
   .icons-footer{
     margin-top: 30px;
-    margin-left: 200px;
+    text-align: end;
     size: 40px;
     
   }

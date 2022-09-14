@@ -10,6 +10,9 @@ body{
   padding-top: 20px;
     margin-bottom: 20px;
 }
+a{
+  text-decoration: none;
+}
 .navbar-brand {
     width:auto;
     height: 95px;
@@ -93,6 +96,7 @@ body{
     margin-left: 500px;
     font-weight: bold;
     color: #febc42;
+    text-decoration: none;
 }
 #navbar-apply-icon{
   color: #febc42;
@@ -120,7 +124,16 @@ body{
   li{
     margin-top: 0 !important;
   }
+  .nav-items a:hover{
+    color: #febc42;
+  }
   
+  .nav-item a:hover,
+  .nav-item a.active{
+    color: #febc42 !important;
+  }
+
+
  #nav-item a {
     display: block;
     color: white;
@@ -145,6 +158,7 @@ body{
     .top-nav-bar-apply{
       font-size: small;
       padding-left: -50px;
+      
     }
     #top-nav-bar-apply-icon{
       font-size: small;
@@ -278,11 +292,10 @@ button {
 #btn1{
     margin-top: 30px;
     position: relative;
-    padding-block: 35px;
+    padding: 12px;
     display: inline-block;
     font-weight: bold;
     font-size: 18px;
-    padding: 5px;
     background-color:transparent;
     cursor: pointer;
     outline: none;
@@ -314,12 +327,12 @@ button {
 }
 #btn2{
     margin-top: 30px;
+    margin-left: 5px;
     position: relative;
     display: inline-block;
-    padding-block: 35px;
+    padding:12px;
     font-weight: bold;
     font-size: 18px;
-    padding: 5px;
     background-color:#01416f;
     cursor: pointer;
     outline: none;
@@ -332,6 +345,29 @@ button {
 }
 #btn2a {
     color: #fffffe;
+}
+#btn2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background:#01416f;
+  transition: height linear 0.3s;
+  z-index: -1;
+
+}
+#btn2:hover {
+  background-color:transparent;
+  color: #01416f;
+}
+#btn2a:hover {
+  color:#01416f;
+}
+
+#btn2:hover::before{
+  height:10%;
 }
 /* first section end */
 
@@ -406,7 +442,7 @@ i{
     margin-top: 40px;
 }
 #third-section-btn{
-    margin-left: 0px;
+    margin-left: 50px;
     margin-top: 30px;
     position: relative;
     padding-block: 35px;
@@ -420,7 +456,7 @@ i{
     border: 0;
     vertical-align: middle;
     text-decoration: none;
-    color:#ffffff;
+    color: #01416f;
     transition: width 0.5s;
     overflow: hidden;
     
@@ -436,8 +472,14 @@ i{
     transition: height linear 0.3s;
 
 }
+.applynow-span{
+  position: relative;
+}
+.applynow-span:hover{
+  color: #fff;
+}
 #third-section-icon{
-    color: #fffffe;
+    color:#01416f;
 }
 #third-section-btn:hover{
     background-color:transparent;
@@ -545,7 +587,6 @@ i{
   color: #01416f;
 }
 #fourthh5{
-  margin-left: 75px;
   margin-top: 20px;
   padding-left: 20px;
   line-height: 28px;
@@ -561,14 +602,12 @@ i{
   padding-right: 20px;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 75px;
   background-color:transparent;
   cursor: pointer;
   outline: none;
   border: 0;
   vertical-align: middle;
   text-decoration: none;
-  color:#01416f;
   transition: width 0.5s;
   overflow: hidden;
 }
@@ -590,6 +629,7 @@ i{
 #fourth-section-btn:hover::before{
   height:10%;
 }
+
 .news-slider{
   position: relative;
   background-color: transparent;
@@ -629,7 +669,7 @@ i{
 #image-wrap-btn{
   right: 34%;
   bottom: 10%;
-  padding-block: 5px;
+  padding: 8px;
   cursor: pointer;
   outline: none;
   border: 0;
@@ -643,6 +683,24 @@ i{
 .mask-wrap-p:hover{
   padding-top: 100px;
 }
+@media only screen and (min-width: 1600px){
+  .mask-wrap-p{
+    padding-top: 200px;
+  }
+  #image-wrap-btn{
+    right: 36%;
+  }
+}
+@media only screen and (max-width: 1500px){
+  .mask-wrap-p{
+    padding-top: 200px;
+  }
+  #image-wrap-btn{
+    right: 36%;
+  }
+}
+
+
 /* fourth section end */
 /* fifth section start */
 
@@ -850,7 +908,6 @@ display: none;
     }
     .last-word-on-footer{
       margin-top: 20px;
-      margin-left: 60px;
       padding-top: 10px;
       padding-bottom: 10px;
     }
@@ -860,7 +917,7 @@ display: none;
     }
     .icons-footer{
       margin-top: 30px;
-      margin-left: 200px;
+      text-align: end;
       size: 40px; 
     }
     #footer-section-h3{

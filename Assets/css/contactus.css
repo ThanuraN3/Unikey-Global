@@ -88,6 +88,7 @@ body{
     margin-left: 500px;
     font-weight: bold;
     color: #febc42;
+    text-decoration: none;
 }
   #menu-btn{
     color: #fffffe;
@@ -103,7 +104,13 @@ body{
     float: left;
     display: block;   
   }
-  
+  .nav-item a:hover{
+    color: #febc42 !important;
+  }
+  .nav-items a:hover{
+    color: #febc42;
+  }
+
  #nav-item a {
     display: block;
     color: white;
@@ -206,7 +213,6 @@ body{
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: -40px;
-    
     z-index: 1;
 }
 #form-btn{
@@ -470,7 +476,6 @@ iframe{
   }
   .icons-footer{
     margin-top: 30px;
-    margin-left: 200px;
     size: 40px;
     
   }
