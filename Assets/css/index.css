@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 *,
 *::after,
 *::before,
@@ -35,6 +36,9 @@ a{
     padding: 3px 3px;
     color: #01416f;
     
+}
+ul{
+  text-align: end;
 }
 .nav-item:hover{
   color: #febc42;
@@ -379,6 +383,15 @@ button {
     min-height: 0px;
     
 }
+#second-section-h1{
+  font-family: inter;
+  font-size: 48px;
+  font-weight: 900;
+  z-index: 1;
+}
+#second-section-h4{
+  margin-top: 50px;
+}
 @media only screen and (max-width: 1400px){
   .second-imge{
     width: 130% ;
@@ -397,7 +410,7 @@ button {
   }
 }
 .second-section-sub{
-    margin-top: -120px;
+    margin-top: -100px;
 }
 i{
     color:#01416f;
@@ -491,8 +504,9 @@ i{
     color: #fffffe;
     padding-top: 50px;
     padding-left: 50px;
-    font-family: serif;
+    font-family: Abril Fatface;
     font-size: 65px;
+    font-weight: lighter;
 }
 @media only screen and (max-width: 576px){
   #thirdh1{
@@ -568,11 +582,11 @@ i{
         background-repeat: no-repeat;
         
       }.menu li:nth-child(2):hover ~ .bg {
-        background-image: url("../images/slide-2.jpg");
+        background-image: url("../images/slide-3.png");
         background-repeat: no-repeat;
       }
       .menu li:nth-child(3):hover ~ .bg {
-        background-image: url("../images/slide-3.png");
+        background-image: url("../images/slide-2.jpg");
         background-repeat: no-repeat;
       }
 
@@ -583,7 +597,8 @@ i{
   padding: 100px 0;
 }
 #fourthh1{
-  font-family: Lucida Bright;
+  font-family: Abril Fatface;
+  font-weight: lighter;
   color: #01416f;
 }
 #fourthh5{
@@ -592,8 +607,11 @@ i{
   line-height: 28px;
   border-left-style: solid;
   border-color: #febc42;
+  font-family: inter;
+  font-weight: lighter;
 }
 #fourth-section-btn{
+  color: #01416f;
   margin-top: 30px;
   position: relative;
   display: inline-block;
@@ -681,7 +699,7 @@ i{
   position: relative;
 }
 .mask-wrap-p:hover{
-  padding-top: 100px;
+  padding-top: 150px;
 }
 @media only screen and (min-width: 1600px){
   .mask-wrap-p{
@@ -709,7 +727,7 @@ i{
   display: flex;
   margin: 0;
   list-style-type: none;
-  margin-top: -195px;
+  margin-top: -105px;
   margin-left: 170px;
 
 }
@@ -730,7 +748,7 @@ i{
 }
 .list-group .list-group-item:hover{
   cursor: pointer;
-  color:#01416f;
+  color:#ffffff;
   background-color: #01416f60;
 }
 .content{
@@ -739,7 +757,9 @@ i{
   border-radius: 55;
   box-shadow: 0 2px 1px 0 #dcdcdc,0 -2px 1px 0 #dcdcdc;;
 }
-
+.fifth-h2{
+  font-family: Abril Fatface;
+}
 .red{
   background:url("../images/Rectangle11905.jpg");
   background-size: cover;
@@ -758,9 +778,14 @@ i{
   background:url("../images/Rectangle11899.jpg");
   background-size: cover;
 }
+@media only screen and (max-width: 1300px){
+  #bg{
+    width: 130%;
+  }
+}
 #bg{
-  height: 100%;
-  width: 117%;
+  height: 120%;
+  width: 112%;
   background-size: cover;
 }
 #list-content{
@@ -772,17 +797,45 @@ font-size: 40px;
 display: none;
 }
 .fifth-h4{
+  font-size: medium;
+  font-family: poppins;
   color: black;
+  padding-top: 18px;
+}
+@media only screen and (max-width: 1500px){
+  .fifth-h4{
+    padding-top: 43px;
+  }
 }
 .fifth-h4-visa{
+  font-family: poppins;
+  font-size: medium;
   color: black;
-  padding-top: 26px;
+  padding-top: px;
 }
+@media only screen and (max-width: 1500px){
+  .fifth-h4-visa{
+    padding-top: 58px;
+  }
+}
+@media only screen and (max-width: 1400px){
+  .fifth-h4{
+    padding-top: 23px;
+  }
+  .fifth-h4-visa{
+    padding-top: 4px;
+  }
+
+}
+
 .fifth-h4-add{
+  font-family: poppins;
+  font-size: medium;
   color: black;
-  padding-top: 15px;
+  padding-top: 16px;
 }
 .view-all{
+  font-family: Abril Fatface;
   padding-bottom: 86px;
 }
 
@@ -840,10 +893,27 @@ display: none;
 /* upper-footer section start */
  .upper-footer-section{
     padding-top: 50px;
-    border-bottom-style: solid;
-    border-color:#01416f;
   
   }
+  #upper-footer-section-btn{
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background-color: #febc42;
+    color: #01416f;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    left: 41%;
+    margin-top: -190px;
+}
+@media only screen and (min-width: 1500px){
+  #upper-footer-section-btn{
+    left: 46%;
+  }
+}
   .upper-footer-section-img{
     margin-left: 0px;
     width: 100%;
@@ -859,6 +929,7 @@ display: none;
     font-size: 55px;
     font-weight: 700;
     text-align: center;
+    font-family: inter;
   }
   @media only screen and (max-width: 1200px){
     .upper-footer-section-h1{
@@ -883,6 +954,7 @@ display: none;
         /* footer section start */
     .footer-p{
       margin-top: 40px;
+
     }
     .footer-section-logo{
       width: 200px;
@@ -891,6 +963,13 @@ display: none;
     }
     .footer-headers {
       padding-bottom: 10px;
+      font-family: Abril Fatface;
+      font-size: x-large;
+
+    }
+    .footer-p-bottom a{
+      text-decoration: none !important;
+      color: black;
     }
     .footer-section{
       margin-top: 40px;

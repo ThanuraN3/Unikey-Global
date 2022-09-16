@@ -36,6 +36,9 @@ body{
     color: #01416f;
     
 }
+ul{
+  text-align: end;
+}
 .hamberger-menu{
   display: none;
 }
@@ -178,9 +181,8 @@ body{
 }
 .second-section-h1 {
   color: #01416f;
-  font-family:  Georgia;
+  font-family:  Abril Fatface;
   font-size: 80px;
-  font-weight: bolder;
   padding-left: 20px;
 }  
 @media only screen and (max-width: 1200px){
@@ -211,7 +213,7 @@ body{
 .second-section-p{
   color: #01416f;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 41px;
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -251,8 +253,8 @@ body{
 .third-section-h1{
   padding-left: 100px;
   color: #febc42;
-  font-weight: bolder;
-  font-family:  Georgia;
+  font-weight: lighter;
+  font-family:  Abril Fatface;
   font-size:60px;
 }
 @media only screen and (max-width: 1200px){
@@ -299,17 +301,21 @@ body{
   color: #01416f;
   font-size: 28px;
   font-weight: 700;
+  font-family: Exo;
 
 }
 .fourth-section-h1{
   color: #01416f;
+  padding-left: 40px;
   font-size:40px;
-  font-weight: bolder;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-family: Abril Fatface;
 }
 .fourth-section-p-two{
+  font-family: poppins;
   color: rgb(51, 50, 50);
   padding-top: 20px;
+  padding-left: 40px;
   font-weight: 500;
   font-size: 17px;
 }
@@ -348,8 +354,8 @@ body{
   .fifth-section-h1{
     padding-left: 100px;
     color: #febc42;
-    font-weight: bolder;
-    font-family:  Georgia;
+    font-weight: lighter;
+    font-family: Abril Fatface;
     font-size:60px;
   }
   @media only screen and (max-width: 992px){
@@ -381,8 +387,10 @@ body{
     color: #01416f;
     font-size: 30px;
     font-weight: 700;
+    font-family: Exo;
   }
   .six-section-p-two{
+    padding-left: 20px;
     padding-top: 20px;
     font-weight: 500;
     font-size: 18px;
@@ -411,8 +419,8 @@ body{
   text-align: center;
   font-size: 35px;
   color: #01416f;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bolder;
+  font-family: Abril Fatface;
+  font-weight: lighter;
   padding-bottom: 40px;
 }
 .seventh_section_background{
@@ -455,8 +463,8 @@ body{
   .eighth-section-h1{
     padding-left: 100px;
     color: #febc42;
-    font-weight: bolder;
-    font-family:  Georgia;
+    font-weight: lighter;
+    font-family: Abril Fatface;
     font-size:60px;
   }
   @media only screen and (max-width: 1200px){
@@ -494,16 +502,19 @@ body{
   padding-left: 20px;
    font-size: 30px;
   color: #01416f;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: Exo;
 }
 .nineth-section-h1-two{
   font-size: 35px;
   color: #01416f;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bolder;
+  font-family: Abril Fatface;
+  font-weight: lighter;
+  padding-left: 20px;
 }
 .nineth-section-p{
     padding-top: 5px;
+    padding-left: 20px;
     font-weight: 500;
     font-size: 18px;
 }
@@ -526,14 +537,31 @@ body{
 
  /* ninth section end */
 /* upper-footer section start */
+
 .upper-footer-section{
   padding-top: 50px;
-  border-bottom-style: solid;
-  border-color:#01416f;
 
 }
+#upper-footer-section-btn{
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background-color: #febc42;
+    color: #01416f;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    left: 41%;
+    margin-top: -190px;
+}
+@media only screen and (min-width: 1500px){
+  #upper-footer-section-btn{
+    left: 46%;
+  }
+}
 .upper-footer-section-img{
-  margin-left: 0px;
   width: 100%;
   background-image: url("../images/Rectangle11907.jpg");
   background-repeat: no-repeat;
@@ -544,99 +572,108 @@ body{
   color: #fffffe;
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
   font-size: 55px;
   font-weight: 700;
-  text-align: center;
+  font-family: Inter;
 }
 @media only screen and (max-width: 1200px){
   .upper-footer-section-h1{
     font-size: 40px;
-    padding-left: 280px;
   }
 }
 @media only screen and (max-width: 992px){
   .upper-footer-section-h1{
     font-size: 30px;
-    padding-left: 210px;
   }
 }
 @media only screen and (max-width:425px){
   .upper-footer-section-h1{
     font-size: 30px;
-    padding-left: 60px;
   }
 }
 /* upper-footer section end */
 
-      /* footer section start */
-  .footer-p{
-    margin-top: 40px;
-  }
-  .footer-section-logo{
-    width: 200px;
-    height: 70px;
-    margin-top: 10px;
-  }
-  .footer-headers {
-    padding-bottom: 10px;
-  }
-  .footer-section{
-    margin-top: 40px;
-    padding-left: 50px;
-  }
-  #col-lg-3-footer{
-    border-right-style: solid;
-    border-color:#febc42;
-    border-bottom: 20px;
-  }
-  .footer-section-two {
-    background-color: #01416f;
-    color: #fffffe;
-    margin-top: 40px;
-  }
-  .last-word-on-footer{
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  #footer-section-two-icons{
-    color: #fffffe;
-    padding-left: 15px;
-  }
-  .icons-footer{
-    margin-top: 30px;
-    text-align: end;
-    size: 40px;
-    
-  }
-  #footer-section-h3{
-    color: #01416f;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-  }
-  @media only screen and (max-width: 1200px){
-    .icons-footer{
-      margin-top: 30px;
-      margin-left: 100px;
-  }
-}
-  @media only screen and (max-width: 992px){
-    .footer-section-two{
-      padding-left: 150px;
+    /* footer section start */
+    .footer-p{
+      margin-top: 40px;
+    }
+    .footer-section-logo{
+      width: 200px;
+      height: 70px;
+      margin-top: 10px;
+    }
+    .footer-p-bottom a{
+      text-decoration: none !important;
+      color: black;
+    }
+    .footer-headers {
+      padding-bottom: 10px;
+      font-family: Abril Fatface;
+      font-size: x-large;
+    }
+    .footer-section{
+      margin-top: 40px;
+      padding-left: 50px;
+    }
+    #col-lg-3-footer{
+      border-right-style: solid;
+      border-color:#febc42;
+      border-bottom: 20px;
+    }
+    .footer-section-two {
+      background-color: #01416f;
+      color: #fffffe;
+      margin-top: 40px;
+    }
+    .last-word-on-footer{
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: poppins;
+      font-weight: lighter;
+    }
+    #footer-section-two-icons{
+      color: #fffffe;
+      padding-left: 15px;
     }
     .icons-footer{
+      margin-top: 30px;
+      text-align: end;
+      size: 40px;
+      
+    }
+    .footer-p-bottom{
+      text-decoration: none;
+    }
+    #footer-section-h3{
+      color: #01416f;
+      font-family:  Abril Fatface;
+      font-weight: normal;
+    }
+    @media only screen and (max-width: 1200px){
+      .icons-footer{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+  }
+    @media only screen and (max-width: 992px){
+      .footer-section-two{
+        padding-left: 150px;
+      }
+      .icons-footer{
+        margin-top: -10px;
+        padding-bottom: 40px;
+  }
+  @media only screen and (max-width: 425px){
+    .footer-section-two{
+      padding-left: 0px;
+    }
+    .icons-footer{
+      margin-left: 70px;
       margin-top: -10px;
       padding-bottom: 40px;
-}
-@media only screen and (max-width: 425px){
-  .footer-section-two{
-    padding-left: 0px;
   }
-  .icons-footer{
-    margin-left: 70px;
-    margin-top: -10px;
-    padding-bottom: 40px;
-}
-}
-}
-  /* footer section end */
+  }
+  }
+    /* footer section end */

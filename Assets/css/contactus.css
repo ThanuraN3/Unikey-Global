@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 *,
 *::after,
 *::before,
@@ -159,17 +160,19 @@ body{
 .second-section-h1{
     color: #01416f;
     font-size: 70px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
+    font-family: Abril Fatface;
+    font-weight: 400;
     padding-top: 60px;
 }
 .second-section-p-one{
+  font-family: Inter;
     font-size: 40px;
     font-weight: 900;
     color: #01416f;
     padding-top: 60px;
 }
 .second-section-p-two{
+  font-family: Exo;
     font-size: larger;
     color: #01416f;
     font-weight: bold;
@@ -193,7 +196,6 @@ body{
 
 .third-section-img{
     width: 1000px;
-    margin-left: -10px;
 }
 .third-section-img-cover{
     width: 850px;
@@ -239,7 +241,7 @@ body{
 }
 @media only screen and (max-width: 1500px){
   .third-section-img-cover{
-    margin-left: 475px;
+    margin-left: 420px;
    
   }
 }
@@ -248,7 +250,6 @@ body{
     margin-left: 360px;
    
   } */
-
 @media only screen and (max-width: 1200px){
   .third-section-img{
     width: 1015px;
@@ -304,6 +305,7 @@ body{
   padding-top: 50px;
 }
 .fourth-section-h1-one{
+  font-family: inter;
     font-size: 50px;
     font-weight: 900;
     color: #01416f;
@@ -315,8 +317,8 @@ body{
 }
 .fourth-section-p{
     font-size: 40px;
-    font-weight: 600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-family: Abril Fatface;
     color: #01416f;
     padding-top: 150px;
 
@@ -333,12 +335,14 @@ body{
   margin-top: -120px;
 }
 .fifth-section-p-one{
+  font-family: inter;
   padding-top: 50px;
   color: #01416f;
   font-size: 25px;
   font-weight: bold;
 }
 .fifth-section-p-two{
+  font-family: inter;
   font-weight: 500;
   font-size: 17px;
 }
@@ -374,7 +378,7 @@ iframe{
 .sixth-section-p{
     font-size: 40px;
     font-weight: 600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Abril Fatface;
     color: #01416f;
     padding-top: 200px;
 
@@ -385,12 +389,14 @@ iframe{
   margin-top: -120px;
 }
 .seventh-section-p-one{
+  font-family: inter;
   padding-top: 50px;
   color: #01416f;
   font-size: 25px;
   font-weight: bold;
 }
 .seventh-section-p-two{
+  font-family: inter;
   font-weight: 500;
   font-size: 17px;
 
@@ -399,14 +405,31 @@ iframe{
 /* seventh section end */
 
 /* upper-footer section start */
+
 .upper-footer-section{
   padding-top: 50px;
-  border-bottom-style: solid;
-  border-color:#01416f;
 
 }
+#upper-footer-section-btn{
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background-color: #febc42;
+    color: #01416f;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    left: 41%;
+    margin-top: -190px;
+}
+@media only screen and (min-width: 1500px){
+  #upper-footer-section-btn{
+    left: 46%;
+  }
+}
 .upper-footer-section-img{
-  margin-left: 0px;
   width: 100%;
   background-image: url("../images/Rectangle11907.jpg");
   background-repeat: no-repeat;
@@ -420,6 +443,7 @@ iframe{
   text-align: center;
   font-size: 55px;
   font-weight: 700;
+  font-family: Inter;
 }
 @media only screen and (max-width: 1200px){
   .upper-footer-section-h1{
@@ -438,75 +462,83 @@ iframe{
 }
 /* upper-footer section end */
 
-      /* footer section start */
-  .footer-p{
-    margin-top: 40px;
-  }
-  .footer-section-logo{
-    width: 200px;
-    height: 70px;
-    margin-top: 10px;
-  }
-  .footer-headers {
-    padding-bottom: 10px;
-  }
-  .footer-section{
-    margin-top: 40px;
-    padding-left: 50px;
-  }
-  #col-lg-3-footer{
-    border-right-style: solid;
-    border-color:#febc42;
-    border-bottom: 20px;
-  }
-  .footer-section-two {
-    background-color: #01416f;
-    color: #fffffe;
-    margin-top: 40px;
-  }
-  .last-word-on-footer{
-    margin-top: 20px;
-    margin-left: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  #footer-section-two-icons{
-    color: #fffffe;
-    padding-left: 15px;
-  }
-  .icons-footer{
-    margin-top: 30px;
-    size: 40px;
-    
-  }
-  #footer-section-h3{
-    color: #01416f;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-  }
-  @media only screen and (max-width: 1200px){
-    .icons-footer{
-      margin-top: 30px;
-      margin-left: 100px;
-  }
-}
-  @media only screen and (max-width: 992px){
-    .footer-section-two{
-      padding-left: 150px;
+    /* footer section start */
+    .footer-p{
+      margin-top: 40px;
+    }
+    .footer-section-logo{
+      width: 200px;
+      height: 70px;
+      margin-top: 10px;
+    }
+    .footer-headers {
+      padding-bottom: 10px;
+      font-family: Abril Fatface;
+      font-size: x-large;
+    }
+    .footer-section{
+      margin-top: 40px;
+      padding-left: 50px;
+    }
+    #col-lg-3-footer{
+      border-right-style: solid;
+      border-color:#febc42;
+      border-bottom: 20px;
+    }
+    .footer-section-two {
+      background-color: #01416f;
+      color: #fffffe;
+      margin-top: 40px;
+    }
+    .last-word-on-footer{
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: poppins;
+      font-weight: lighter;
+    }
+    #footer-section-two-icons{
+      color: #fffffe;
+      padding-left: 15px;
     }
     .icons-footer{
+      margin-top: 30px;
+      text-align: end;
+      size: 40px;
+      
+    }
+    .footer-p-bottom a{
+      text-decoration: none !important;
+      color: black;
+    }
+    #footer-section-h3{
+      color: #01416f;
+      font-family:  Abril Fatface;
+      font-weight: normal;
+    }
+    @media only screen and (max-width: 1200px){
+      .icons-footer{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+  }
+    @media only screen and (max-width: 992px){
+      .footer-section-two{
+        padding-left: 150px;
+      }
+      .icons-footer{
+        margin-top: -10px;
+        padding-bottom: 40px;
+  }
+  @media only screen and (max-width: 425px){
+    .footer-section-two{
+      padding-left: 0px;
+    }
+    .icons-footer{
+      margin-left: 70px;
       margin-top: -10px;
       padding-bottom: 40px;
-}
-@media only screen and (max-width: 425px){
-  .footer-section-two{
-    padding-left: 0px;
   }
-  .icons-footer{
-    margin-left: 70px;
-    margin-top: -10px;
-    padding-bottom: 40px;
-}
-}
-}
-  /* footer section end */
+  }
+  }
+    /* footer section end */
