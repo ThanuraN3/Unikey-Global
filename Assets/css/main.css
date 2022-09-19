@@ -52,18 +52,6 @@ ul{
   .nav-items{
     display: none;
   }
-
-  .hamberger-menu{
-    display:inline;
-    text-align: right;
-    font-size: 40px;
-    color: #01416f;
-    margin-top: 20px;
-
-  }
-  
-
-
 }
 .navbar{
   padding-bottom: 0 !important;
@@ -82,23 +70,20 @@ ul{
     .top-nav-bar{
      display: none;
   }
-  .navbar-apply{
-    display: none;
   }
+  .apply{
+    color: #febc42;
+    font-weight: 700;
   } 
+  .apply{
+    text-decoration: none;
+  }
   #navbaritems{
     color: #ffffff;
   } 
   #navbaritemsdrop{
     color: #01416f;
   }
-.navbar-apply {
-    margin-top: 12px;
-    margin-left: 500px;
-    font-weight: bold;
-    color: #febc42;
-    text-decoration: none;
-}
 
   #menu-btn{
     color: #fffffe;
@@ -167,6 +152,32 @@ ul{
     position: absolute;
     left: 41%;
     margin-top: -190px;
+    z-index: 1;
+}
+#upper-footer-section-btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #febc42;
+  transition: height linear 0.3s;
+  z-index: 0;
+
+}
+#upper-footer-section-btn:hover{
+  background-color:transparent;
+  color: #fffffe;
+}
+#upper-footer-section-btn:hover #uppder-button-icon{
+  color: #fffffe;
+}
+#upper-footer-section-btn:hover::before{
+  height:10%;
+}
+.upper-footer-section-btn-span{
+  position: relative;
 }
 @media only screen and (min-width: 1500px){
   #upper-footer-section-btn{
@@ -276,9 +287,7 @@ ul{
       padding-left: 0px;
     }
     .icons-footer{
-      margin-left: 70px;
       margin-top: -10px;
-      padding-bottom: 40px;
   }
   }
   }

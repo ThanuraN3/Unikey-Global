@@ -92,6 +92,8 @@
 .third-section{
   margin-top: 150px;
   background-image: url("../images/Educationalservices/admission.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #third-section-col{
   background-color:#011b2ed5;
@@ -193,6 +195,8 @@
   .fifth-section{
     margin-top: 50px;
     background-image: url("../images/Educationalservices/visa-guidance.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #fifth-section-col{
     background-color:#011b2ed5;
@@ -302,6 +306,8 @@
    .eighth-section{
     margin-top: 50px;
     background-image: url("../images/Educationalservices/additional-services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #eighth-section-col{
     background-color:#011b2ed5;
