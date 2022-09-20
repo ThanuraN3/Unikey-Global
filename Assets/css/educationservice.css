@@ -25,13 +25,11 @@
 
 .second-section{
   padding-top: 60px;
-  padding-left: 50px;
 }
 .second-section-h1 {
   color: #01416f;
   font-family:  Abril Fatface;
   font-size: 80px;
-  padding-left: 20px;
 }  
 @media only screen and (max-width: 1200px){
   .second-section-h1{
@@ -63,7 +61,6 @@
   font-weight: 900;
   font-size: 41px;
   padding-top: 20px;
-  padding-left: 20px;
 }
 @media only screen and (max-width: 1200px){
   .second-section-p{
@@ -199,7 +196,7 @@
     background-size: cover;
   }
   #fifth-section-col{
-    background-color:#011b2ed5;
+    background-color:#052338e1;
     padding-top: 240px;
     padding-bottom: 200px;
   }

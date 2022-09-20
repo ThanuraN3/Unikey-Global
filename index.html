@@ -27,13 +27,20 @@
          <!-- nav bar start -->
         <section class="nav-bar"> 
             <div class="container"> 
-                <div class="row align-items-end">
+                <div class="row align-items-center">
                     <div class="col-6">
                         <div text-lg-start text-centerd>
                             <img src="assets/images/unikey-logo.png " class="navbar-brand">
                         </div>
                     </div>
                     <div class="col-6">
+                        <div class="three col" id="three-col">
+                            <div class="hamburger" id="hamburger-1" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="line"></span>
+                              <span class="line"></span>
+                              <span class="line"></span>
+                            </div>
+                          </div>
                         <ul>
                             <li class="nav-items">
                                 <a href="promotion.html" class="nav-link">Promotions</a>
@@ -50,7 +57,14 @@
                         </ul>
                     </div>    
                 </div>    
-            </div>     
+            </div>  
+            <script>
+                $(document).ready(function(){
+              $(".hamburger").click(function(){
+                $(this).toggleClass("is-active");
+              });
+            });
+            </script>      
         </section>
         <!-- nav bar end -->
 
@@ -58,11 +72,9 @@
         <section class="topnavbar-section">
             <div class="container">
                 <div class="row align-items-center">    
-                    <div class="col-lg-8">
-                    <nav class="navbar navbar-expand-lg navbar-expand-xxl pb-0">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <div class="col-lg-8">    
+                     <nav class="navbar navbar-expand-lg navbar-expand-xxl pb-0">
+                        
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-lg-8 py-2">
                             <li class="nav-item">
@@ -83,10 +95,8 @@
                             
                             </ul>
                             </div>
-                    
                     </nav>
-                    </div>
-                    
+                    </div>    
                 <div class="col-lg-4 text-end">   
                     <div>
                         <a class="apply" href="#">APPLY NOW &nbsp;<i class="bi bi-pen-fill" id="navbar-apply-icon"></i></a>
@@ -100,32 +110,32 @@
         <!-- body section start -->
 
         <!-- first section start -->
-            <section class="first-section">
-                    
-                    <div class="firstimg mt-0"></div>
-                    <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8" id="first-section-background">
-                            <div class="firstimg-word">
-                                <h1 class="firstimg-word-h1">World class Education For<br>World class Students.</h1>
-                            </div>
-                        </div>
+                <section class="first-section">
                         
-                        <div class="col-lg-4">
-                           <div class="firstimg-word-2">
-                            <div class="play-button">
-                                <a href="https://www.youtube.com/watch?v=6hHI-3iTojI">
-                                <p class="play">PLAY &nbsp;<i class="bi bi-caret-right-fill" id="arrow"></i></p>
-                                </a>
+                        <div class="firstimg mt-0"></div>
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8" id="first-section-background">
+                                <div class="firstimg-word">
+                                    <h1 class="firstimg-word-h1">World class Education For<br>World class Students.</h1>
+                                </div>
                             </div>
-                            <h4 class="firstimg-word-h4">Our<br>Future</h4>
-                            <p class="firstimg-word-p">Watch video</p>
-                           </div> 
+                            
+                            <div class="col-lg-4">
+                            <div class="firstimg-word-2">
+                                <div class="play-button">
+                                    <a href="https://www.youtube.com/watch?v=6hHI-3iTojI">
+                                    <p class="play">PLAY &nbsp;<i class="bi bi-caret-right-fill" id="arrow"></i></p>
+                                    </a>
+                                </div>
+                                <h4 class="firstimg-word-h4">Our<br>Future</h4>
+                                <p class="firstimg-word-p">Watch video</p>
+                            </div> 
+                            </div>
                         </div>
-                    </div>
-                    </div>
-            </section>    
-            <!-- first section end --> 
+                        </div>
+                </section>    
+            <!-- first section end -->
 
             <!-- body section's second section start -->   
             <section class="second-section">
@@ -298,8 +308,8 @@
                     </div>      
                       </div>
                 </div>
-                <script>
-                $(document).ready(function(){
+                <script> 
+                 $(document).ready(function(){
                     var image=["red","green","blue","purple"];
 
                     $(".list-group div").hover(function(){
@@ -328,43 +338,43 @@
       <!-- upper-footer section end -->
 
             <!-- Footer section one start -->
-        <section class="footer-section">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-12 col-xl-3 col-md-6" id="col-lg-3-footer">
-                        <img src="assets/images/unikey-logo.png" class="footer-section-logo">
-                        <p class="footer-p">A leading Education and Migration agency that provides a platform for students
-                            seeking higher Education in australia, whilst assuring quality service and reliability
-                            that enventually help Students select a desired career oriented field of study, paving
-                            the way to a bright future 
-                        </p>
-                    </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6" id="col-lg-3-footer">
-                        <h3 class="footer-headers" id="footer-section-h3">QUICK LINKS</h3>
-                        <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="index.html">Home</a></p>
-                        <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="aboutUs.html">About</a></p>
-                        <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="ourteam.html">Team</a></p>
-                        <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="promotion.html">Services</a></p>
-                        <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="whystudy.html">Why Study in Australia</a></p>
-                        <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="contactus.html">Contact</a></p>
-                    </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6" id="col-lg-3-footer">
-                        <h3 class="footer-headers" id="footer-section-h3">SRILANKA BRANCH</h3>
-                        <p class="footer-p-bottom">438, 1st floor, Jazimaz complex, Galle Road, Colombo 3, Srilanka.</p>
-                        <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +94 112 593 540</p>
-                        <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +94 779 717 577</p>
-                        <p class="footer-p-bottom"><i class="bi bi-envelope-fill"></i>&nbsp; info@unikeyglobal.com.au</p>
-                    </div>
-                    <div class="col-lg-4 col-xl-3 col-md-6">
-                        <h3 class="footer-headers" id="footer-section-h3">AUSTRALIA BRANCH</h3>
-                        <p class="footer-p-bottom">Suite 1603/530 Little collins st, Melbourne VIC 3000, Australia</p>
-                        <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +61 392 842 999</p>
-                        <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +61 403 788 905</p>
-                        <p class="footer-p-bottom"><i class="bi bi-envelope-fill"></i>&nbsp; info@unikeyglobal.com.au</p>
+            <section class="footer-section">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-lg-12 col-xl-3 col-md-6" id="col-lg-3-footer">
+                            <img src="assets/images/unikey-logo.png" class="footer-section-logo">
+                            <p class="footer-p">A leading Education and Migration agency that provides a platform for students
+                                seeking higher Education in australia, whilst assuring quality service and reliability
+                                that enventually help Students select a desired career oriented field of study, paving
+                                the way to a bright future 
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-md-6" id="col-lg-3-footer">
+                            <h3 class="footer-headers" id="footer-section-h3">QUICK LINKS</h3>
+                            <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="index.html">Home</a></p>
+                            <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="aboutUs.html">About</a></p>
+                            <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="ourteam.html">Team</a></p>
+                            <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="promotion.html">Services</a></p>
+                            <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="whystudy.html">Why Study in Australia</a></p>
+                            <p class="footer-p-bottom"><a class="footer-p-bottom-links" href="contactus.html">Contact</a></p>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-md-6" id="col-lg-3-footer">
+                            <h3 class="footer-headers" id="footer-section-h3">SRILANKA BRANCH</h3>
+                            <p class="footer-p-bottom">438, 1st floor, Jazimaz complex, Galle Road, Colombo 3, Srilanka.</p>
+                            <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +94 112 593 540</p>
+                            <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +94 779 717 577</p>
+                            <p class="footer-p-bottom"><i class="bi bi-envelope-fill"></i>&nbsp; info@unikeyglobal.com.au</p>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-md-6">
+                            <h3 class="footer-headers" id="footer-section-h3">AUSTRALIA BRANCH</h3>
+                            <p class="footer-p-bottom">Suite 1603/530 Little collins st, Melbourne VIC 3000, Australia</p>
+                            <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +61 392 842 999</p>
+                            <p class="footer-p-bottom"><i class="bi bi-telephone-fill"></i>&nbsp; +61 403 788 905</p>
+                            <p class="footer-p-bottom"><i class="bi bi-envelope-fill"></i>&nbsp; info@unikeyglobal.com.au</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         <!-- Footer section one end -->
 
         <!-- Footer section two start -->
@@ -373,6 +383,7 @@
                 <div class="row" id="footer-section-two">
                     <div class="col-lg-8">
                         <p class="last-word-on-footer">&copy; 2022 All Rights Reserved. Unikey Global</p>
+                        <p class="design-word-on-footer">Design By <a href="https://xessglobal.com">XESS GLOBAL</a></p>
                     </div>
                     <div class="col-lg-4">
                         <div class="icons-footer">
@@ -402,8 +413,8 @@
                         0:{
                         items:1
                             },
-                        768:{
-                        items:3
+                        425:{
+                        items:2
                             },
                         1200:{
                         items:3

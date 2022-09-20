@@ -14,6 +14,61 @@ body{
 a{
   text-decoration: none;
 }
+/* hamburger menu */
+.hamburger{
+  z-index: 2;
+
+  }
+  #three-col{
+    position: absolute;
+    right: 5%;
+  }
+    
+  
+    .hamburger .line{
+      width: 50px;
+      height: 5px;
+      background-color:#01416f;
+      display: block;
+      margin: 8px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      z-index: 2;
+  
+    }
+    .hamburger:hover{
+      cursor: pointer;
+      
+    }
+    #hamburger-1.is-active .line{
+      background-color:#01416f;
+    }
+    
+    #hamburger-1.is-active .line:nth-child(2){
+      opacity: 0;
+    }
+    
+    #hamburger-1.is-active .line:nth-child(1){
+      -webkit-transform: translateY(13px) rotate(45deg);
+      -ms-transform: translateY(13px) rotate(45deg);
+      -o-transform: translateY(13px) rotate(45deg);
+      transform: translateY(13px) rotate(45deg);
+    }
+    
+    #hamburger-1.is-active .line:nth-child(3){
+      -webkit-transform: translateY(-13px) rotate(-45deg);
+      -ms-transform: translateY(-13px) rotate(-45deg);
+      -o-transform: translateY(-13px) rotate(-45deg);
+      transform: translateY(-13px) rotate(-45deg);
+    }
+    @media only screen and (min-width: 992px){
+      .hamburger{
+        display: none;
+      }
+    }
+  
+/* hamburger menu */
 .navbar-brand {
     width:auto;
     height: 95px;
@@ -104,7 +159,10 @@ ul{
     display: none;
   }
   .navbar-toggler{
-    background-color: #fffffe;
+      margin-left: 300px;
+      margin-top: -120px;
+
+    
    }
 /*   
     @media (min-width: 992px){
@@ -194,13 +252,20 @@ ul{
     color: #fff;
     font-size: large;
     font-family: Abril Fatface;
-  }
-  @media only screen and (min-width: 1500px){
+  } 
+  @media only screen and (max-width: 425px){
     .play-button{
-
+      display: none;
+      left: -258%;
+      bottom: 200;
+      height: 70px;
+      width: 70px;
+    }
+    .play{
+      font-size: small;
+      padding-top: 27px;
     }
   }
-
   #arrow{
     color: #febc42;
   }
@@ -228,7 +293,7 @@ ul{
   @media only screen and (max-width: 425px){
     .firstimg{
       width: 100%;
-      height: 100%;
+      height: 60vh;
     }
   }
 
@@ -276,7 +341,7 @@ ul{
     position: absolute;
     color: #fffffe;
     margin-top: -100px;
-    margin-left: 280px;
+    margin-left: 260px;
   }
   @media only screen and (max-width: 425px){
     .firstimg-word-h4{
@@ -290,7 +355,7 @@ ul{
     position: absolute;
     color: #fffffe;
     margin-top: -40px;
-    margin-left: 280px;
+    margin-left: 260px;
   }
 
  h1 {
@@ -309,6 +374,7 @@ h2 {
     color: #01416f;
     font-family: Georgia;
 }
+
 h3 {
     margin-top: 50px;
     font-weight: bold;
@@ -332,7 +398,8 @@ button {
     position: relative;
     padding: 12px;
     display: inline-block;
-    font-weight: bold;
+    font-family: poppins;
+    font-weight: 600;
     font-size: 18px;
     background-color:transparent;
     cursor: pointer;
@@ -367,9 +434,10 @@ button {
     margin-top: 30px;
     margin-left: 5px;
     position: relative;
+    font-family: poppins;
     display: inline-block;
     padding:12px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     background-color:#01416f;
     cursor: pointer;
@@ -461,20 +529,32 @@ button {
 .second-section-sub{
     margin-top: -100px;
 }
+@media only screen and (max-width: 425px){
+  .second-section-sub{
+    margin-top: -200px;
+}
+}
 i{
     color:#01416f;
     font-weight: bold;
 }
 .divider{
     margin-top: 15px;
-    width: 300px;
+    width: 400px;
     height: 3px;
     background-color: #01416f;
     display: inline-block;
 
 }
-.second-section-sub{
-    margin-left: -20px;
+@media only screen and (max-width: 800px){
+  .divider{
+    width: 700px;
+}
+}
+@media only screen and (max-width: 425px){
+  .divider{
+    width: 400px;
+}
 }
 #secondsub3{
   padding-left: 10px;
@@ -488,7 +568,7 @@ i{
 }
 
 .scale-wrap:hover .image-scale img{
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition: all 0.5s ease-in;
 
 } 
@@ -575,14 +655,17 @@ i{
 }
 @media only screen and (max-width: 576px){
   #thirdh1{
-    padding-left: 100px;
+    padding-left: 20px;
   }
   #third-section-btn{
-    margin-left: 100px;
+    margin-left: 20px;
   }
   li img{
     margin-left: -40px;
-    width: 25%;
+    width: 15%;
+  }
+  .li-class{
+    display: none;
   }
 }
 #rd-span{
@@ -661,6 +744,7 @@ i{
 .news-title{
   padding: 100px 0;
 }
+
 #fourthh1{
   font-family: Abril Fatface;
   font-weight: lighter;
@@ -718,6 +802,21 @@ i{
   background-color: transparent;
   padding:50px 0;
 }
+@media only screen and (max-width: 375px){
+  .news-slider{
+    margin-left: -25px;
+    margin-top: 40px;
+    width: 325px;
+  }  
+}
+@media only screen and (max-width: 455px){
+  .news-slider{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 350px;
+  }  
+}
+
 .news-slider::before{
   content: "";
   position: absolute;
@@ -782,7 +881,17 @@ i{
     right: 36%;
   }
 }
-
+@media only screen and (max-width: 425px){
+  #image-wrap-btn{
+    right: 38%;
+  }
+  .mask-wrap-p{
+    padding-top: 300px;
+  }
+  .mask-wrap-p:hover{
+    padding-top: 230px;
+  }
+}
 .image-wrap-img{
   transition: 1s ease;
   transform: scale(1.5s);
@@ -807,6 +916,19 @@ i{
     margin-left: 50px;
   }
 }
+@media only screen and (max-width: 425px){
+  .fifth-section{
+    display: none;
+  }
+  .list-group{
+    margin-left: 0px;
+    
+  }
+  .list-group-item{
+    display: none;
+  }
+}
+
 .list-group-item{
   padding-top: 10px;
   position:relative;
@@ -820,7 +942,7 @@ i{
 .list-group .list-group-item:hover{
   cursor: pointer;
   color:#ffffff;
-  background-color: #01416f60;
+  background-color: #021725b9;
 }
 .content{
   margin: 30px auto;
@@ -872,6 +994,11 @@ i{
   height: 100vh;
   background-size: cover;
 }
+@media only screen and (max-width: 425px){
+  #bg{
+    width: 350px;
+  }
+}
 #list-content{
   padding: 50px;
   text-align: center;
@@ -881,6 +1008,7 @@ font-size: 40px;
 display: none;
 }
 .fifth-h4{
+  font-weight: 300;
   font-size: medium;
   font-family: poppins;
   color: black;
@@ -891,7 +1019,11 @@ display: none;
     padding-top: 43px;
   }
 }
+@media only screen and (max-width: 425px){
+  
+}
 .fifth-h4-visa{
+  font-weight: 300;
   font-family: poppins;
   font-size: medium;
   color: black;
@@ -913,6 +1045,7 @@ display: none;
 }
 
 .fifth-h4-add{
+  font-weight: 300;
   font-family: poppins;
   font-size: medium;
   color: black;

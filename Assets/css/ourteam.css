@@ -1,12 +1,27 @@
 
   /* first section start */
-#first-section-img{
-    width:100%;
+  #first-section-img{
+    width: 100%;
   }
-  @media only screen and (min-width: 1400px){
+  @media only screen and (max-width: 1400px){
     #first-section-img{
-      width: 1440px;
+      width: 100%;
   }
+}
+  @media only screen and (max-width: 1200px){
+    #first-section-img{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px){
+    #first-section-img{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 425px){
+    #first-section-img{
+      width: 100%;
+    }
   }
     /* first section end */
 
@@ -93,8 +108,9 @@
   .fifth-section-image{
     background-image: url("../images/Aboutus/Teams/banner-image.jpg");
     width: 100%;
-    /* padding: 250px; */
-    padding: 250px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 
   }
