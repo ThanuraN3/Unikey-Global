@@ -1,8 +1,12 @@
 
    /* first section start */
 
-  #first-section-img{
+   .first-section-img{
+    background-size: cover !important; 
     width: 100%;
+    height: 60vh;
+    background:url("../images/Migrationimages/main.jpg");
+    background-repeat: no-repeat; 
   }
   @media only screen and (max-width: 1400px){
     #first-section-img{

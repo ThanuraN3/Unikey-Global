@@ -325,6 +325,13 @@ ul{
       border-color:#febc42;
       border-bottom: 20px;
     }
+    #col-lg-3-footer a{
+      color: black;
+      text-decoration: none;
+    }
+    #col-lg-3-footer a:hover{
+      color:#febc42;
+    }
     @media only screen and (max-width:425px){
       #col-lg-3-footer{
         border: none;

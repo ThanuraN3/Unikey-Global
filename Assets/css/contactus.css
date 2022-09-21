@@ -292,6 +292,7 @@ body{
     width:400px;
   }
   .third-section-img-cover{
+    display: none;
     width: 400px;
     height: 875px;
     margin-top: -875px;
